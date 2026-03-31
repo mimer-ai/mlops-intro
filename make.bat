@@ -32,7 +32,7 @@ if "%1" == "" goto help
 goto end
 
 :livehtml
-sphinx-autobuild %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %0%
+sphinx-autobuild %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
 goto end
 
 :help
